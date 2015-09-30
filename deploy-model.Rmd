@@ -1,0 +1,62 @@
+---
+title: "Deploying Predictive Models in R"
+author: "Daniel Emaasit (Ph.D. Student) & Steve Wells (C.T.O, Cumulus)"
+date: "September 30, 2015"
+output: ioslides_presentation
+---
+
+## Agenda
+
+A short presentation and then a **demo**:
+
+- About Us
+- Intro
+- The Problem: Operationalizing Predictive Models
+- Solutions
+- Case Study: Iris Flower Predictor
+- Demo
+- Q & A
+
+## About Us
+
+- **Daniel Emaasit** (Ph.D. Student)  
+Use R for statistical programming in my research to solve Transportation Engineering problems like crashes, congestion e.t.c.
+
+- **Steve Wells** (C.T.O, Cumulus)  
+Jack of all trades: Computer Programmer & Data Scientist
+
+## Intro
+
+Common examples of data products:   
+- `Loan/credit approval`  
+- `Recommendation systems (Movies, products, news feed)`  
+- `Qouting premiums; claims estimates`  
+- `Churn reduction/ Customer retention`  
+
+## The Problem: Operationalizing Predictive Models
+<img src="image/friction2.png" height="200px" width="800px" />
+
+- Data scientists may not be good at web programming or app dev  
+- Software enginners may not be good at machine learning
+
+
+## Why Use Predictive API Engines
+- I do not have time/skills for every single task
+- I want to focus on understanding my problem and improving models
+
+## Solutions
+1. Shiny
+2. Predictive API Engines
+     + [Domino Data Labs](http://dominodatalab.com)
+     + [Yhat](https://www.yhathq.com)
+     + [PredictionIO](https://prediction.io)
+     + [Microsoft AzureML](https://azure.microsoft.com/en-us/services/machine-learning)
+     + [BigML](https://bigml.com)
+     + [Revolution Analytics DeployR](http://deployr.revolutionanalytics.com)
+     + [Sense](https://sense.io)
+     
+## How Domino Works
+<img src="image/how-domino-works.png" height="250px" width="800px" />
+
+- Data scientists focus on developing & improving models  
+- Software enginners focus on maintaining the apps
