@@ -58,13 +58,16 @@ Common examples of data products:
      + [BigML](https://bigml.com)
      + [Revolution Analytics DeployR](http://deployr.revolutionanalytics.com)
      + [Sense](https://sense.io)
+     
 
 ## Why Use Predictive API Engines
 - I do not have time/skills for every single task
 - I want to focus on understanding my problem and improving models
 
+
 ## 
 - Part 1: Domino Data Lab
+
      
 ## How Domino Works
 <img src="image/how-domino-works.png" height="250px" width="800px" />
@@ -72,12 +75,22 @@ Common examples of data products:
 - Data scientists focus on developing & improving models  
 - Software enginners focus on maintaining the apps
 
+
 ## Demo
+- 1st: Use random forests to predict the flower species in the iris dataset
+- 2nd: Turn the model into a web service
+- 3rd: Call the web service in a sample app
+```{r table1, comment=NA, results='asis'}
+library(xtable)
+data(iris)
+print(xtable(head(iris, 5)), type = "html", include.rownames = F)
+```
 
 ## Best Practices for Using a Predictive API Engine
 - Separate training, initialization, and prediction
 - Make prediction functions thread-safe
 - Leverage persistence/serialization tools (e.g. pickle)
+
 
 ## What your Predictive API Engine should have for Production
 - Very low latency
@@ -87,13 +100,21 @@ Common examples of data products:
 - Logging
 - Security
 
+
 ## Try it Yourself
-- Create a free account on [dominodatalab.com](http://dominodatalab.com)
-- Fork my project on my account 
+- Fork my project on my account [https://app.dominodatalab.com/SparkIQLabs/helloWorld](https://app.dominodatalab.com/SparkIQLabs/helloWorld)
+
+<img src="image/fork-my-acc.png" height="450px" width="650px" />
+
 
 ## Thank you
-- **Daniel Emaasit** (Ph.D. Student)  
-Use R for statistical programming in my research to solve Transportation Engineering problems like crashes, congestion e.t.c.
+- **Daniel Emaasit**
+    + Github: [https://github.com/Emaasit](https://github.com/Emaasit)
+    + Email: [daniel.emaasit@gmail.com](mailto:daniel.emaasit@gmail.com)
+    + Website: [http://www.danielemaasit.com](http://www.danielemaasit.com)
 
-- **Steve Wells** (C.T.O, Cumulus)  
-Jack of all trades: Computer Programmer & Data Scientist
+
+- **Steve Wells**  
+    + Github: [https://github.com/yxes](https://github.com/yxes)
+    + Email: [yxes@NOSPAMcpan.org](mailto:yxes@NOSPAMcpan.org)
+    + Website: [http://www.stephendwells.com/](http://www.stephendwells.com/)
