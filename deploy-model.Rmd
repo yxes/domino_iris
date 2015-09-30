@@ -65,9 +65,8 @@ Common examples of data products:
 - I want to focus on understanding my problem and improving models
 
 
-## 
-- Part 1: Domino Data Lab
-
+## Predictive API Engines, Part 1: Domino Data Lab
+<img src="image/domino.png" height="400px" width="700px" />
      
 ## How Domino Works
 <img src="image/how-domino-works.png" height="250px" width="800px" />
@@ -80,7 +79,7 @@ Common examples of data products:
 - 1st: Use random forests to predict the flower species in the iris dataset
 - 2nd: Turn the model into a web service
 - 3rd: Call the web service in a sample app
-```{r table1, comment=NA, results='asis'}
+```{r table1, results='asis'}
 library(xtable)
 data(iris)
 print(xtable(head(iris, 5)), type = "html", include.rownames = F)
@@ -102,9 +101,10 @@ print(xtable(head(iris, 5)), type = "html", include.rownames = F)
 
 
 ## Try it Yourself
-- Fork my project on my account [https://app.dominodatalab.com/SparkIQLabs/helloWorld](https://app.dominodatalab.com/SparkIQLabs/helloWorld)
+- Create a free account on [dominodatalab.com](http://dominodatalab.com)
+- Fork my project from my account [https://app.dominodatalab.com/SparkIQLabs/helloWorld](https://app.dominodatalab.com/SparkIQLabs/helloWorld)
 
-<img src="image/fork-my-acc.png" height="450px" width="650px" />
+<img src="image/fork-my-acc.png" height="400px" width="600px" />
 
 
 ## Thank you
@@ -118,3 +118,6 @@ print(xtable(head(iris, 5)), type = "html", include.rownames = F)
     + Github: [https://github.com/yxes](https://github.com/yxes)
     + Email: [yxes@NOSPAMcpan.org](mailto:yxes@NOSPAMcpan.org)
     + Website: [http://www.stephendwells.com/](http://www.stephendwells.com/)
+    
+- **Slides available here**:
+    + Github: [https://github.com/yxes/domino-iris](https://github.com/yxes/domino-iris)
