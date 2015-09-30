@@ -33,16 +33,20 @@ Common examples of data products:
 - `Qouting premiums; claims estimates`  
 - `Churn reduction/ Customer retention`  
 
-## The Problem: Operationalizing Predictive Models
+
+## The Problem: Operationalizing Predictive Models (1/2)
 <img src="image/friction2.png" height="200px" width="800px" />
 
 - Data scientists may not be good at web programming or app dev  
 - Software enginners may not be good at machine learning
 
 
-## Why Use Predictive API Engines
-- I do not have time/skills for every single task
-- I want to focus on understanding my problem and improving models
+## The Problem: Operationalizing Predictive Models (2/2)
+
+- Different languages are good for different tasks
+
+<img src="image/different-langs.png" height="330px" width="800px" />
+
 
 ## Solutions
 1. Shiny
@@ -54,9 +58,42 @@ Common examples of data products:
      + [BigML](https://bigml.com)
      + [Revolution Analytics DeployR](http://deployr.revolutionanalytics.com)
      + [Sense](https://sense.io)
+
+## Why Use Predictive API Engines
+- I do not have time/skills for every single task
+- I want to focus on understanding my problem and improving models
+
+## 
+- Part 1: Domino Data Lab
      
 ## How Domino Works
 <img src="image/how-domino-works.png" height="250px" width="800px" />
 
 - Data scientists focus on developing & improving models  
 - Software enginners focus on maintaining the apps
+
+## Demo
+
+## Best Practices for Using a Predictive API Engine
+- Separate training, initialization, and prediction
+- Make prediction functions thread-safe
+- Leverage persistence/serialization tools (e.g. pickle)
+
+## What your Predictive API Engine should have for Production
+- Very low latency
+- Zero-downtime upgrades
+- High availability
+- Reproducibility
+- Logging
+- Security
+
+## Try it Yourself
+- Create a free account on [dominodatalab.com](http://dominodatalab.com)
+- Fork my project on my account 
+
+## Thank you
+- **Daniel Emaasit** (Ph.D. Student)  
+Use R for statistical programming in my research to solve Transportation Engineering problems like crashes, congestion e.t.c.
+
+- **Steve Wells** (C.T.O, Cumulus)  
+Jack of all trades: Computer Programmer & Data Scientist
