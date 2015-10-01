@@ -50,7 +50,7 @@ Common examples of data products:
 
 
 ## Solutions
-1. Shiny
+1. Translate code
 2. Predictive API Engines
      + [Domino Data Labs](http://dominodatalab.com)
      + [Yhat](https://www.yhathq.com)
