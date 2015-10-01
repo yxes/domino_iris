@@ -28,15 +28,16 @@ Use R for statistical programming in my research to solve Transportation Enginee
 - **Steve Wells** (C.T.O, Cumulus)  
 Computer Programmer & Data Scientist
     + Github: [https://github.com/yxes](https://github.com/yxes)
-    + Email: [yxes@NOSPAMcpan.org](mailto:yxes@NOSPAMcpan.org)
+    + Email: [yxes@cpan.org](mailto:yxes@cpan.org)
     + Website: [http://www.stephendwells.com/](http://www.stephendwells.com/)
 
 ## Intro
 
 Common examples of data products:   
-- Loan/credit approval  
-- Recommendation systems (Movies, products, news feed)  
-- Qouting premiums; claims estimates 
+
+- Loan/credit approval
+- Recommendation systems (Movies, products, news feed)
+- Quoting premiums; claims estimates
 - Churn reduction/ Customer retention  
 
 
@@ -96,7 +97,59 @@ print(xtable(head(iris, 5)), type = "html", include.rownames = F)
 - Create a free account on [dominodatalab.com](http://dominodatalab.com)
 - Fork my project from my account [https://app.dominodatalab.com/SparkIQLabs/helloWorld](https://app.dominodatalab.com/SparkIQLabs/helloWorld)
 
-<img src="image/fork-my-acc.png" height="400px" width="600px" />
+<img src="image/fork-my-acc.png" />
+
+## Simple WebSever Application
+<img src="image/api-framework.png" />
+
+## Action Shot
+
+**Web Sample**
+[http://bit.ly/1YPQFJu](http://bit.ly/1YPQFJu)
+
+*supplied by heroku*
+
+or run it yourself
+
+**Github**
+[http://github.com/yxes/domino_iris](http://github.com/yxes/domino_iris)
+
+## Relevant Code (1/2) | Formulate Request
+
+```{python, eval=FALSE}
+MODEL_ATTRS = [ 'sepal_length', 'sepal_width', 
+                'petal_length', 'petal_width' ]
+                
+if request.method == 'POST': # you submitted the form
+
+        attributes = [] # just the values from the form in an array
+        for field in MODEL_ATTRS:
+###<b>
+            attributes.append(request.form[field])
+        result = fetch_score(attributes)
+###</b>
+        result = result.json()
+```
+
+## Relevant Code (2/2) | API Call 
+
+```{python, eval=FALSE}
+### <b>
+API_KEY = 'KaxzbZ3bu1VNF7yUpQ3TmtUl6reJjp6xjHLoCnPUhsVbrE6nJ9wjGg31FW6cCDcZ'
+### </b>
+
+def fetch_score(attributes):
+    return requests.post(
+### <b>
+        "https://app.dominodatalab.com/v1/SparkIQLabs/helloWorld/endpoint",
+### </b>
+        headers = {
+            'X-Domino-Api-Key': API_KEY,
+            'Content-type': 'application/json'
+        },
+        json={ "parameters": attributes }
+)
+```
 
 ## Best Practices for Using a Predictive API Engine
 - Separate training, initialization, and prediction
@@ -122,7 +175,7 @@ print(xtable(head(iris, 5)), type = "html", include.rownames = F)
 
 - **Steve Wells**  
     + Github: [https://github.com/yxes](https://github.com/yxes)
-    + Email: [yxes@NOSPAMcpan.org](mailto:yxes@NOSPAMcpan.org)
+    + Email: [yxes@cpan.org](mailto:yxes@cpan.org)
     + Website: [http://www.stephendwells.com/](http://www.stephendwells.com/)
     
 - **Slides available here**:
