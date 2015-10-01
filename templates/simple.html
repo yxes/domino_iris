@@ -1,0 +1,21 @@
+
+<form method=POST action="{{ url_for('index') }}">
+ <table border=0>
+    {% for field in fields %}
+    <tr>
+      <th align=right><b>{{field | replace("_", " ") | title }}</b>:</th>
+      <td><input type="text" name="{{ field }}"></td>
+    </tr>
+    {% endfor %}
+    <tr>
+     <td></td>
+     <td><input type="submit" value="Test Iris"></td>
+    </tr>
+ </table>
+</form>
+
+{% if result is defined %}
+   <hr>
+    {{ result.result[0] }}
+    <img src="static/{{ result.result[0] }}.png">
+{% endif %}
