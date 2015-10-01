@@ -21,17 +21,23 @@ A short presentation and then a **demo**:
 
 - **Daniel Emaasit** (Ph.D. Student)  
 Use R for statistical programming in my research to solve Transportation Engineering problems like crashes, congestion e.t.c.
+    + Github: [https://github.com/Emaasit](https://github.com/Emaasit)
+    + Email: [daniel.emaasit@gmail.com](mailto:daniel.emaasit@gmail.com)
+    + Website: [http://www.danielemaasit.com](http://www.danielemaasit.com)
 
 - **Steve Wells** (C.T.O, Cumulus)  
-Jack of all trades: Computer Programmer & Data Scientist
+Computer Programmer & Data Scientist
+    + Github: [https://github.com/yxes](https://github.com/yxes)
+    + Email: [yxes@NOSPAMcpan.org](mailto:yxes@NOSPAMcpan.org)
+    + Website: [http://www.stephendwells.com/](http://www.stephendwells.com/)
 
 ## Intro
 
 Common examples of data products:   
-- `Loan/credit approval`  
-- `Recommendation systems (Movies, products, news feed)`  
-- `Qouting premiums; claims estimates`  
-- `Churn reduction/ Customer retention`  
+- Loan/credit approval  
+- Recommendation systems (Movies, products, news feed)  
+- Qouting premiums; claims estimates 
+- Churn reduction/ Customer retention  
 
 
 ## The Problem: Operationalizing Predictive Models (1/2)
