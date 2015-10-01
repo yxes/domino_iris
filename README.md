@@ -1,9 +1,9 @@
 # domino_iris
 Simple example of using a domino-based website.
 
-## View it on the Web @ heroku
+## Visit on the Web (hosted by [https://heroku.com](Heroku)
 
-(https://immense-coast-7696.herokuapp.com/)[Iris Prediction]
+[https://immense-coast-7696.herokuapp.com/](Iris Prediction)
 
 *...when you get there - click "Input Form" to start ...*
 
@@ -28,7 +28,7 @@ python flask_iris.py
 
 You'll need to use your own domino inspired api key. First
 signup with a free account at [Domino](https://www.dominodatalab.com/)
-then signin and go to your account settings 
+then sign in and go to your
 [Account Settings](https://app.dominodatalab.com/account)
 where you will find your own personal API key. Copy it.
 
