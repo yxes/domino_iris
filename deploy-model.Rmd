@@ -40,6 +40,15 @@ Common examples of data products:
 - Quoting premiums; claims estimates
 - Churn reduction/ Customer retention  
 
+## Intro
+
+- **Netflix Movie Recommendation System**      
+<img src="image/netflix.png" height="350px" width="800px" />
+
+## Intro
+
+- **Amazon Product Recommendation System** 
+<img src="image/amazon.png" height="400px" width="500px" />
 
 ## The Problem: Operationalizing Predictive Models (1/2)
 <img src="image/friction2.png" height="200px" width="800px" />
@@ -151,6 +160,7 @@ def fetch_score(attributes):
 )
 ```
 
+
 ## Best Practices for Using a Predictive API Engine
 - Separate training, initialization, and prediction
 - Make prediction functions thread-safe
@@ -179,4 +189,5 @@ def fetch_score(attributes):
     + Website: [http://www.stephendwells.com/](http://www.stephendwells.com/)
     
 - **Slides available here**:
+    + Rpubs: [http://rpubs.com/Emaasit/domino-demo](http://rpubs.com/Emaasit/domino-demo)
     + Github: [https://github.com/yxes/domino-iris](https://github.com/yxes/domino-iris)
