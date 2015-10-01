@@ -1,9 +1,9 @@
 # domino_iris
 Simple example of using a domino-based website.
 
-## Visit on the Web (hosted by [https://heroku.com/](Heroku))
+## Visit on the Web (hosted by [Heroku](https://heroku.com/))
 
-[https://immense-coast-7696.herokuapp.com/](Iris Prediction)
+[Iris Prediction](https://immense-coast-7696.herokuapp.com/)
 
 *...when you get there - click "Input Form" to start ...*
 
