@@ -1,8 +1,9 @@
 ---
 title: "Deploying Predictive Models in R"
 author: "Daniel Emaasit (Ph.D. Student) & Steve Wells (C.T.O, Cumulus)"
-date: "September 30, 2015"
+date: "October 01, 2015"
 output: ioslides_presentation
+css: style.css
 ---
 
 ## Agenda
@@ -33,7 +34,7 @@ Computer Programmer & Data Scientist
 
 ## Intro
 
-Common examples of data products:   
+Common examples of data driven products:   
 
 - Loan/credit approval
 - Recommendation systems (Movies, products, news feed)
@@ -51,18 +52,22 @@ Common examples of data products:
 <img src="image/amazon.png" height="400px" width="500px" />
 
 ## The Problem: Operationalizing Predictive Models (1/2)
+<figure>
 <img src="image/friction2.png" height="200px" width="800px" />
+<figcaption text-align=center>Credit: Nick Elprin.<br> Image used with permission</figcaption>
+</figure><br>    
 
 - Data scientists may not be good at web programming or app dev  
-- Software enginners may not be good at machine learning
+- Software enginners may not be good at machine learning and statistical analysis
 
 
 ## The Problem: Operationalizing Predictive Models (2/2)
 
 - Different languages are good for different tasks
-
+<figure>
 <img src="image/different-langs.png" height="330px" width="800px" />
-
+<figcaption text-align=center>Credit: Nick Elprin.<br> Image used with permission</figcaption>
+</figure><br>
 
 
 ## Solutions
@@ -86,7 +91,10 @@ Common examples of data products:
 <img src="image/domino.png" height="400px" width="700px" />
      
 ## How Domino Works
+<figure>
 <img src="image/how-domino-works.png" height="250px" width="800px" />
+<figcaption text-align=center>Credit: Nick Elprin.<br> Image used with permission</figcaption>
+</figure><br>
 
 - Data scientists focus on developing & improving models  
 - Software enginners focus on maintaining the apps
@@ -108,20 +116,26 @@ print(xtable(head(iris, 5)), type = "html", include.rownames = F)
 
 <img src="image/fork-my-acc.png" />
 
-## Simple WebSever Application
+## Simple WebServer Application
 <img src="image/api-framework.png" />
 
-## Action Shot
+## Action Shot (1/2)
 
 **Web Sample**
-[http://bit.ly/1YPQFJu](http://bit.ly/1YPQFJu)
+[http://bit.ly/1YPQFJu](http://bit.ly/1YPQFJu) *hosted on heroku*
 
-*supplied by heroku*
+<img src="image/web-app1.png" height="400px" width="800px"  />
 
-or run it yourself
+or run it yourself **Github** [http://github.com/yxes/domino_iris](http://github.com/yxes/domino_iris)
 
-**Github**
-[http://github.com/yxes/domino_iris](http://github.com/yxes/domino_iris)
+## Action Shot(2/2)
+
+**Web Sample**  
+- Fill out the input form with input values and click "make prediction".  
+- The predicted value (Species type) is displayed in the web app.
+
+<img src="image/web-app2.png" height="350px" width="600px"  />
+
 
 ## Relevant Code (1/2) | Formulate Request
 
@@ -144,7 +158,7 @@ if request.method == 'POST': # you submitted the form
 
 ```{python, eval=FALSE}
 ### <b>
-API_KEY = 'KaxzbZ3bu1VNF7yUpQ3TmtUl6reJjp6xjHLoCnPUhsVbrE6nJ9wjGg31FW6cCDcZ'
+API_KEY = 'YOUR_API_KEY'
 ### </b>
 
 def fetch_score(attributes):
