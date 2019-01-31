@@ -62,6 +62,11 @@ set DOMINO_API_KEY=<YOUR API KEY>
 * static/ - static files for flask
 * requirements.txt - python library requirements
 
+## Security Updates
+
+* requests == 2.2.20.0
+* flask == 0.12.3
+
 ## Authors
 
 **Daniel Emaasit** (Ph.D. Student)
