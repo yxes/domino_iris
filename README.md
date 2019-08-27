@@ -65,7 +65,8 @@ set DOMINO_API_KEY=<YOUR API KEY>
 ## Security Updates
 
 * requests == 2.20.0
-* flask == 0.12.3
+* flask == 1.1.1
+* werkseug == 0.15.5
 
 ## Authors
 
