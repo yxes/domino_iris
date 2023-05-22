@@ -3,6 +3,6 @@ gunicorn==19.5.0
 itsdangerous==0.24
 Jinja2==2.11.3
 MarkupSafe==0.23
-requests==2.20.0
+requests==2.31.0
 Werkzeug==2.2.3
 wheel==0.38.1
